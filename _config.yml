@@ -1,7 +1,7 @@
 # Site settings
 title:          Elastropy Blog
 description:    "Turning data into compelling stories"
-baseurl:        "/epyblog"
+baseurl:        "" # "/epyblog" <-- This is only needed when you're serving the blog as a subdirectory of a GitHub Pages domain. But when you're using a custom domain, it must be set to an empty string.
 url:            "https://tbkopen.github.io"
 
 # Google Analytics
