@@ -1,0 +1,106 @@
+---
+layout: default
+---
+
+<div class="post">
+  <div class="post-info">
+    <span>Written by</span>
+    {% if page.author %}
+        {{ page.author }}
+    {% else %}
+        {{ site.author.name }}
+    {% endif %}
+
+    {% if page.date %}
+      <br>
+      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% endif %}
+  </div>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-line"></div>
+  
+  <div class="markdown-body">
+    {{ content }}
+  </div>
+  
+</div>
+
+{% if page.more_updates_card %}
+<link href="{{ "/assets/css4.1/bootstrapcustom.min.css" | relative_url }}" rel="stylesheet" crossorigin="anonymous">
+
+
+<div class="bootstrapiso">
+	<div class="card">
+	  <div class="card-header text-white" style="background-color: #007bff;">
+		Want to Learn More ...
+	  </div>
+	  <div class="card-body">
+		<p class="card-text"> Explore our complete deep dive masterclass courses curated for serious learners in engineering and data science.</p>
+		<a href="https://www.elastropy.com/products-services" class="btn btn-primary float-right">Learn More ...</a>
+	  </div>
+	</div>
+</div>
+{% endif %}
+
+{% if page.comments %}
+  {% include disqus_comments.html %}
+{% endif %}
+
+{% if page.yt_community_link %}
+<link href="{{ "/assets/css4.1/bootstrapcustom.min.css" | relative_url }}" rel="stylesheet" crossorigin="anonymous">
+
+<style>
+  .discussion-card .btn-discuss {
+    background-color: #d63384; /* Bootstrap 'pink' */
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+
+  .discussion-card .btn-discuss:hover {
+    background-color: #f8d7e5;
+    color: #d63384;
+    border: 1px solid #d63384;
+  }
+
+  .discussion-card .card-header {
+    background-color: #d63384;
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+</style>
+
+<div class="bootstrapiso discussion-card" style="margin-top: 2rem; margin-bottom: 2rem;">
+  <div class="card border-pink">
+    <div class="card-header text-white">
+      Join the Discussion
+    </div>
+    <div class="card-body">
+      <p class="card-text">
+        We’ve opened a dedicated conversation for this post on our <strong>YouTube Community</strong> page.  
+        Share your thoughts, ask questions, or explore what others are saying:
+      </p>
+      <div class="d-block d-sm-flex justify-content-end">
+        <a href="{{ page.yt_community_link }}" class="btn btn-discuss">
+          View Community Post
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+
+
+
+<div class="pagination">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <a href="#" class="top">Top</a>
+</div>
