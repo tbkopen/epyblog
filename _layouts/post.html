@@ -43,9 +43,77 @@ layout: default
 </div>
 {% endif %}
 
-{% if page.comments %}
+<!-- {% if page.comments %}
   {% include disqus_comments.html %}
+{% endif %} -->
+
+{% if page.giscus_term %}
+<link href="{{ "/assets/css4.1/bootstrapcustom.min.css" | relative_url }}" rel="stylesheet" crossorigin="anonymous">
+
+<style>
+  .discussion-card .btn-discuss {
+    background-color: #ffc863; /* Customize as needed */
+    color: rgb(34, 1, 1);
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+
+  .discussion-card .btn-discuss:hover {
+    background-color: #ede9fe;
+    color: #ffc863;
+    border: 1px solid #ffc863;
+  }
+
+  .discussion-card .card-header {
+    background-color: #ffc863;
+    font-weight: bold;
+    font-size: 1.15rem;
+    color: white;
+  }
+
+  .discussion-card {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+</style>
+
+<div class="bootstrapiso discussion-card">
+  <div class="card border-indigo">
+    <div class="card-header">
+      💬 Join the Discussion
+    </div>
+    <div class="card-body">
+      <p class="card-text">
+        Have thoughts or questions? Please Share them below.
+      </p>
+    </div>
+  </div>
+</div>
 {% endif %}
+
+
+
+<!-- Giscus Comments -->
+{% if page.giscus_term %}
+  <script src="https://giscus.app/client.js"
+    data-repo="tbkopen/epy-discussions"
+    data-repo-id="R_kgb0PZsSDA"
+    data-category="epy blog comments"
+    data-category-id="DIC_kwD0PZsSDM4Ct4K1"
+    data-mapping="specific"
+    data-term="{{ page.giscus_term }}"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+  </script>
+{% endif %}
+
 
 {% if page.yt_community_link %}
 <link href="{{ "/assets/css4.1/bootstrapcustom.min.css" | relative_url }}" rel="stylesheet" crossorigin="anonymous">
@@ -90,8 +158,6 @@ layout: default
   </div>
 </div>
 {% endif %}
-
-
 
 
 <div class="pagination">

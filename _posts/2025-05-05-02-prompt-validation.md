@@ -6,7 +6,8 @@ tags:
   - LLMs
 usemathjax:     true
 more_updates_card: false
-yt_community_link: https://youtube.com/post/xyz123abc
+giscus_term: llm-drift-silently
+yt_community_link: false # https://youtube.com/post/xyz123abc
 excerpt_separator: <!--more-->
 ---
 
