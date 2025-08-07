@@ -5,7 +5,7 @@ title: "Piezoelectric FEM: Deriving Element Matrices for an 8-Noded Solid Elemen
 tags:
   - PiezoElectrics
 usemathjax:     true
-more_updates_card: true
+more_updates_card: false
 excerpt_separator: <!--more-->
 ---
 

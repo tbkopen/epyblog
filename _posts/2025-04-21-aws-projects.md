@@ -5,7 +5,7 @@ title: "30+ Free-Tier AWS Micro-Projects to Master CLF-C02 Hands-On"
 tags:
   - Cloud, AWS
 usemathjax:     true
-more_updates_card: true
+more_updates_card: false
 excerpt_separator: <!--more-->
 ---
 

@@ -5,7 +5,7 @@ title: "u–p Formulation for Incompressible Solids: From Deriving Full Governin
 tags:
   - Finite Element Analysis
 usemathjax:     true
-more_updates_card: true
+more_updates_card: false
 excerpt_separator: <!--more-->
 ---
 

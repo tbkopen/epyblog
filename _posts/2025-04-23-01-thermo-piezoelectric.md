@@ -5,7 +5,7 @@ title: "Thermo-Piezoelectric FEM: From Deriving Full Governing Equations to Matr
 tags:
   - PiezoElectrics
 usemathjax:     true
-more_updates_card: true
+more_updates_card: false
 excerpt_separator: <!--more-->
 ---
 

@@ -6,7 +6,7 @@ tags:
   - LLMs
   - GPT
 usemathjax:     true
-more_updates_card: true
+more_updates_card: false
 excerpt_separator: <!--more-->
 ---
 A user asked our assistant:

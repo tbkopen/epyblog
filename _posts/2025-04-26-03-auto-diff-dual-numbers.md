@@ -5,7 +5,7 @@ title: "Automatic Differentiation Using Dual Numbers: A Clear and Intuitive Unde
 tags:
   - Deep Learning
 usemathjax:     true
-more_updates_card: true
+more_updates_card: false
 excerpt_separator: <!--more-->
 ---
 

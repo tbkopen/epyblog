@@ -5,7 +5,7 @@ title: "What Recurrent Neural Networks Are Really Doing: A Simple Intuition"
 tags:
   - Deep Learning
 usemathjax:     true
-more_updates_card: true
+more_updates_card: false
 excerpt_separator: <!--more-->
 ---
 

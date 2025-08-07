@@ -5,7 +5,7 @@ title: "Clarity Is Not Simplicity: How Real Work Demands Sharp Thought"
 tags:
   - Deep Learning
 usemathjax:     true
-more_updates_card: true
+more_updates_card: false
 excerpt_separator: <!--more-->
 ---
 
