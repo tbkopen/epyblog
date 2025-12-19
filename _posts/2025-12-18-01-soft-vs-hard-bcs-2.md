@@ -247,3 +247,17 @@ A pragmatic engineer eventually treats boundary handling as part of the modeling
 And that brings us to the uncomfortable open tension:
 
 If a PINN solution satisfies the boundary *exactly* (hard BC) but only satisfies the PDE *in distribution* (soft residual), what does “physical correctness” even mean — and where should you demand exactness next?
+
+
+{% capture mycard %}
+
+For readers who want to see how boundary conditions are handled in real PINN implementations — including output transforms, loss balancing, and diagnostics — there is a hands-on walkthrough available as part of the **_PINNs Masterclass_**.
+
+{% endcapture %}
+
+{% include promo-card-md.html
+   heading="Further exploration (optional)"
+   body=mycard
+   button_link="https://exly.co/PvxFUL"
+   button_text="Learn More →"
+%}
