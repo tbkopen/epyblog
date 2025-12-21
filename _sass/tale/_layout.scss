@@ -126,3 +126,15 @@ footer {
     font-size: .8rem;
   }
 }
+
+/* Added this on 2025-Dec-21 */
+/* Intentionally constrained for readability; desktop override can safely go to ~900px */
+@media (min-width: 1000px) {
+  .container,
+  main,
+  footer,
+  .nav-container {
+    max-width: 900px;
+    width: 88%;
+  }
+}
