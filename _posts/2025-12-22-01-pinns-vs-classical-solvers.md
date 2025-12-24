@@ -218,18 +218,13 @@ When they do not, methods that blend physics with data—PINNs included—become
 
 
 
-### Closing the Loop
+### So finally ...
 
-PINNs and classical solvers are not competing answers to the same question.
-
-They are answers to different questions that happen to involve the same equations.
-
-Confusion arises when that distinction is ignored.
-
-Once it is made explicit, many debates lose their urgency—and many modeling decisions become clearer, even if they remain technically challenging.
-
-The comparison does not disappear.  
-It simply shifts to a more appropriate level.
+> PINNs and classical solvers are not trying to answer the same question.  
+> They often use the same equations, but they are built for different purposes.  
+> Confusion starts when we treat them as direct competitors.  
+> Once that difference is clear, many debates fade away, and solver choices become easier to reason about.  
+> The comparison does not vanish—it just moves to the right level.  
 
 
 {% capture mycard %}
