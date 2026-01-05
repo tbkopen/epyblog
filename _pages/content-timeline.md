@@ -130,7 +130,7 @@ permalink: /timeline/
     This is a public delivery ledger. You will see all the planned topics here ...
   </p>
 
-  {% assign interest_form_url = "PASTE_YOUR_GOOGLE_FORM_LINK_HERE" %}
+  {% assign request_form_url = "PASTE_YOUR_GOOGLE_FORM_LINK_HERE" %}
   {% assign topics = site.data.topics %}
 
   <div class="timeline-list">
@@ -144,7 +144,7 @@ permalink: /timeline/
       {% assign brief = t["Description"] | strip %}
       {% assign platform = t["Platform"] | strip %}
       {% assign added = t["Added Date"] | strip %}
-      {% assign interest = t["Interest Count"] | plus: 0 %}
+      {% assign requests = t["Request Count"] | plus: 0 %}
       {% assign status = t["Status"] | strip %}
       {% assign publish_date = t["Publish Date"] | strip %}
       {% assign link = t["Link"] | strip %}
@@ -174,28 +174,28 @@ permalink: /timeline/
               <div class="meta-line"><span class="meta-k">Status:</span> <span class="meta-v">{{ status }}</span></div>
             {% endif %}
 
-            {% if status == "Collecting interest" %}
+            {% if status == "Open For Requests" %}
               <div class="meta-line timeline-cta">
                 <span class="meta-k">Submit:</span>
                 <span class="meta-v">
-                  <a href="{{ interest_form_url }}" target="_blank" rel="noopener">Submit your interest</a>
+                  <a href="{{ request_form_url }}" target="_blank" rel="noopener">Request this topic</a>
                 </span>
               </div>
             {% endif %}
 
 
-            <div class="meta-line"><span class="meta-k">Interest:</span> <span class="meta-v">{{ interest }}</span></div>
+            <div class="meta-line"><span class="meta-k">Audience Requests:</span> <span class="meta-v">{{ requests }}</span></div>
 
             {% if platform != "" %}
               <div class="meta-line"><span class="meta-k">Platform:</span> <span class="meta-v">{{ platform }}</span></div>
             {% endif %}
 
             {% if added != "" %}
-              <div class="meta-line"><span class="meta-k">Added:</span> <span class="meta-v">{{ added }}</span></div>
+              <div class="meta-line"><span class="meta-k">Topic Added On:</span> <span class="meta-v">{{ added }}</span></div>
             {% endif %}
 
             {% if publish_date != "" %}
-              <div class="meta-line"><span class="meta-k">Publish:</span> <span class="meta-v">{{ publish_date }}</span></div>
+              <div class="meta-line"><span class="meta-k">Expected Publish Date:</span> <span class="meta-v">{{ publish_date }}</span></div>
             {% endif %}
 
             {% if link != "" %}
