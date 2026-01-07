@@ -25,14 +25,17 @@ footer,
 
   &-title {
     @include transition(all .2s ease-out);
-    color: $default-color;
+    /* color: $default-color; */
+    color: #3700ff;
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
 
     &:hover,
     &:focus {
-      opacity: .6;
+      /* opacity: .6; */
+      opacity: 1;
+      color: #3700ff;
     }
   }
 
@@ -81,12 +84,19 @@ footer,
   }
   
   a {
-    color: $default-color;
+    /*color: $default-color;*/
+    color: #3700ff;
+    transition: color 0.2s ease;
     font-family: $sans-serif;
+
+    &:hover,
+    &:focus {
+      color: #ea0d0d;
+    }     
   }
 }
 
-
+/*
 @media (min-width: 600px) {
   .nav {
     &-container {
@@ -100,6 +110,7 @@ footer,
     }
   }
 }
+*/
 
 /*
 @media (max-width: 600px) {
