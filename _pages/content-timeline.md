@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Content Timeline"
+title: "Delivery Timeline"
 author: "Epy Team"
-permalink: /timeline/
+permalink: /delivery-timeline/
 ---
 
 
@@ -125,12 +125,19 @@ permalink: /timeline/
 }
 </style>
 
+
 <div class="timeline-page">
   <p class="timeline-subtitle">
-    This is a public delivery ledger. You will see all the planned topics here ...
+    This is our public Content Delivery Timeline, showing the topics we are currently considering, developing, or delivering.
+  </p>
+  <p class="timeline-subtitle">
+    The timeline also serves as the primary interface for topic requests. Visitors can submit topics they would like us to work on next, and these requests help guide and prioritize upcoming work without representing guaranteed commitments.
+  </p>
+  <p class="timeline-subtitle">
+    Each topic moves through a visible lifecycle — open for requests, planned, under development, published, rescoped, or discontinued — and entries are not removed. Every topic is ultimately closed with a clear, visible outcome.
   </p>
 
-  {% assign request_form_url = "PASTE_YOUR_GOOGLE_FORM_LINK_HERE" %}
+  {% assign request_form_url = "https://forms.gle/BiKfnbV2xTdhKmcr6" %}
   {% assign topics = site.data.topics %}
 
   <div class="timeline-list">
