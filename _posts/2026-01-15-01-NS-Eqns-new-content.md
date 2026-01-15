@@ -12,6 +12,14 @@ yt_community_link: false
 excerpt_separator: <!--more-->
 ---
 
+<div class="alert" role="alert" style="background-color: #fff3cd; border-left: 6px solid #ffeeba; padding: 1rem; font-size: 1rem; text-align:justify;">
+<p>
+  👉 <strong>Existing students can access this tutorial anytime from their course dashboard.</strong>
+</p>
+</div>
+
+<br>
+
 We just added a **fresh, implementation-first tutorial** to my PINNs course — and this one is special.
 
 In this tutorial, we solve an **inverse problem for the 2D incompressible Navier–Stokes equations** using a real CFD dataset (**cylinder wake flow**). We intentionally **keep only sparse velocity observations** and ask a PINN to reconstruct the full flow physics: <!--more-->
