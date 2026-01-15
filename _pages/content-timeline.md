@@ -126,17 +126,38 @@ permalink: /delivery-timeline/
 </style>
 
 
+This page contains our public **Content Delivery Timeline**, where you can see the topics we’re actively considering, working on, and planning to deliver — and understand what is likely to be taken up next.
+
+The topics listed here are curated by us based on signals received from multiple channels, including YouTube comments, personal messages/DMs, insights from our corporate trainings, current trends in tech, and recurring pain points observed in practice.
+
+For the topics shown on the timeline, you can **register your interest**. Higher interest helps us decide which topics to take up sooner, while keeping the process focused and transparent.
+
+Every topic on this timeline is taken to a clear end state: **published, rescoped, or discontinued**. Topics are not silently dropped.
+
+If you have a topic suggestion that isn’t listed, you’re welcome to share it via **YouTube comments (on any video)** or by reaching out through **Telegram or email**. We regularly review these inputs when curating future topics.
+
+
 <div class="timeline-page">
+
+<!-- 
   <p class="timeline-subtitle">
-    This is our public Content Delivery Timeline, showing the topics we are currently considering, developing, or delivering.
+      This page contains our public <strong>Content Delivery Timeline</strong>, where you can see the topics we’re actively considering, working on, and planning to deliver — and understand what is likely to be taken up next.
   </p>
   <p class="timeline-subtitle">
-    The timeline also serves as the primary interface for topic requests. Visitors can submit topics they would like us to work on next, and these requests help guide and prioritize upcoming work without representing guaranteed commitments.
+      The topics listed here are curated by us based on signals received from multiple channels, including YouTube comments, personal messages/DMs, insights from our corporate trainings, current trends in tech, and recurring pain points observed in practice.
   </p>
   <p class="timeline-subtitle">
-    Each topic moves through a visible lifecycle — open for requests, planned, under development, published, rescoped, or discontinued — and entries are not removed. Every topic is ultimately closed with a clear, visible outcome.
+      For the topics shown on the timeline, you can <strong>register your interest</strong>. Higher interest helps us decide which topics to take up sooner, while keeping the process focused and transparent.
   </p>
 
+  <p class="timeline-subtitle">
+        Every topic on this timeline is taken to a clear end state: <strong>published, rescoped, or discontinued</strong>. Topics are not silently dropped.
+  </p>
+
+   <p class="timeline-subtitle">
+        If you have a topic suggestion that isn’t listed, you’re welcome to share it via <strong>YouTube comments (on any video)</strong> or by reaching out through <strong>Telegram or email</strong>. We regularly review these inputs when curating future topics.
+  </p>   
+-->
   {% assign request_form_url = "https://forms.gle/BiKfnbV2xTdhKmcr6" %}
   {% assign topics = site.data.topics %}
 
