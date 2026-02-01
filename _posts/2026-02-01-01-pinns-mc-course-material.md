@@ -24,9 +24,11 @@ If a student specifically prefers access via Google Drive, we can try to arrange
 
 We still maintain backup links internally for rare situations such as platform outages, access synchronization issues, or emergency recovery. If any situation requires a temporary switch back to external links, **all PINNs Masterclass students will be informed clearly**.
 
+> If you are unable to locate any specific material inside the course dashboard, please reach out through the official course support or the Telegram group mentioned on the PINNs Masterclass course page. These are the quickest and most reliable channels for course-related assistance.
+
 For any course-related questions or access issues, please use the **official course support channels or the Telegram group mentioned on the PINNs Masterclass course page**. Queries posted on unrelated YouTube videos may be missed.
 
-This update does not affect lifetime access or future updates promised as part of the PINNs Masterclass. It is purely an improvement in how course materials are delivered.
+**This update does not affect lifetime access or future updates promised as part of the PINNs Masterclass. It is purely an improvement in how course materials are delivered.**
 
 Thank you for your understanding and continued support.
 
